@@ -12,10 +12,6 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class LoggingAspect {
 
-    // TODO: property and logic
-    @Value("${fi.tuomas.chassis.loggingapi.packages}")
-    private String loggedTopLevelPackage;
-
     @Around("@annotation(fi.tuomas.chassis.loggingapi.annotation.Logged)")
     public Object log(ProceedingJoinPoint pjp) throws Throwable {
         log.info("Invoking {} with args {}", pjp.getTarget(), pjp.getArgs());

@@ -45,6 +45,7 @@
 		<module>logging-api</module>
 		<module>base-entity</module>
 		<module>exception-handlers</module>
+		<module>ms-spring-boot-starter</module>
 	</modules>
 	
 	<build>
