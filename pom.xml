@@ -44,6 +44,7 @@
 		<module>validation-api</module>
 		<module>logging-api</module>
 		<module>base-entity</module>
+		<module>exception-handlers</module>
 	</modules>
 	
 	<build>
