@@ -43,6 +43,7 @@
 	<modules>
 		<module>validation-api</module>
 		<module>logging-api</module>
+		<module>base-entity</module>
 	</modules>
 	
 	<build>
