@@ -1,2 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-fi.tuomas.chassis.loggingapi.config.LoggingAutoConfiguration
+fi.tuomas.chassis.loggingapi.config.LoggingAutoConfiguration,\
+fi.tuomas.chassis.loggingapi.config.AuditAutoConfiguration
